@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 2
+  domain: mybluemix.net
+  name: demola
+  host: demola
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-hc
